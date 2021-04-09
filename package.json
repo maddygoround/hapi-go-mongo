@@ -1,0 +1,22 @@
+{
+  "name": "hapimongo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/code": "^8.0.3",
+    "@hapi/joi": "15.1.1",
+    "@hapi/lab": "^24.1.1",
+    "boom": "^7.3.0",
+    "hapi": "^18.1.0",
+    "hapi-auth-bearer-token": "^8.0.0",
+    "hapi-swaggered": "^3.0.2",
+    "hapi-swaggered-ui": "^3.0.2",
+    "mongoose": "^5.12.3",
+    "moment": "^2.29.1"
+  },
+  "scripts": {
+    "test": "lab -v **/*.test.js",
+    "start": "node app.js"
+  }
+}
